@@ -1,0 +1,65 @@
+body {
+  background-color: #34e7e4;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+#bag,
+#top,
+#shoes {
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: space-around;
+  align-content: center;
+  background-color: #00d8d6;
+  padding: 15px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.fa-shopping-bag {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  font-size: 50px;
+}
+
+#basket {
+  color: black;
+  flex-flow: row wrap;
+  justify-content: end;
+  align-items: flex-start;
+  height: 30px;
+}
+
+.fa-heart {
+  font-size: 40px;
+}
